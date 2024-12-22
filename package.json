@@ -11,8 +11,6 @@
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "build": "tsup src",
     "start": "node dist/server.js",
-    "precommit": "lint-staged",
-    "prepare": "husky install",
     "test": "vitest"
   },
   "keywords": [],
